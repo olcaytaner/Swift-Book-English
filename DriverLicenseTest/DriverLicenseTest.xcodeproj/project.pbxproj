@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61699781DAD01710083186B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61699771DAD01710083186B /* AppDelegate.swift */; };
+		E616997D1DAD01710083186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E616997B1DAD01710083186B /* Main.storyboard */; };
+		E616997F1DAD01710083186B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E616997E1DAD01710083186B /* Assets.xcassets */; };
+		E61699821DAD01710083186B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61699801DAD01710083186B /* LaunchScreen.storyboard */; };
+		E616998F1DAD054C0083186B /* DriverLicenseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616998B1DAD054C0083186B /* DriverLicenseTest.swift */; };
+		E61699901DAD054C0083186B /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616998C1DAD054C0083186B /* Preferences.swift */; };
+		E61699911DAD054C0083186B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616998D1DAD054C0083186B /* Question.swift */; };
+		E61699921DAD054C0083186B /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616998E1DAD054C0083186B /* Subjects.swift */; };
+		E61699941DAD066D0083186B /* BasicPreferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61699931DAD066D0083186B /* BasicPreferences.plist */; };
+		E64DA3851DAE9FF400EFBE9E /* driverlicense.txt in Resources */ = {isa = PBXBuildFile; fileRef = E64DA3841DAE9FF400EFBE9E /* driverlicense.txt */; };
+		E65F2FD71DAD64BF007A439A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E65F2FD61DAD64BF007A439A /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E61699741DAD01710083186B /* DriverLicenseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverLicenseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61699771DAD01710083186B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E616997C1DAD01710083186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E616997E1DAD01710083186B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61699811DAD01710083186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E616998B1DAD054C0083186B /* DriverLicenseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverLicenseTest.swift; sourceTree = "<group>"; };
+		E616998C1DAD054C0083186B /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		E616998D1DAD054C0083186B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E616998E1DAD054C0083186B /* Subjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
+		E61699931DAD066D0083186B /* BasicPreferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BasicPreferences.plist; sourceTree = "<group>"; };
+		E64DA3841DAE9FF400EFBE9E /* driverlicense.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = driverlicense.txt; sourceTree = "<group>"; };
+		E65F2FD61DAD64BF007A439A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61699711DAD01710083186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E616996B1DAD01710083186B = {
+			isa = PBXGroup;
+			children = (
+				E61699761DAD01710083186B /* DriverLicenseTest */,
+				E61699751DAD01710083186B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61699751DAD01710083186B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61699741DAD01710083186B /* DriverLicenseTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61699761DAD01710083186B /* DriverLicenseTest */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA3841DAE9FF400EFBE9E /* driverlicense.txt */,
+				E65F2FD61DAD64BF007A439A /* Info.plist */,
+				E61699931DAD066D0083186B /* BasicPreferences.plist */,
+				E616998B1DAD054C0083186B /* DriverLicenseTest.swift */,
+				E616998C1DAD054C0083186B /* Preferences.swift */,
+				E616998D1DAD054C0083186B /* Question.swift */,
+				E616998E1DAD054C0083186B /* Subjects.swift */,
+				E61699771DAD01710083186B /* AppDelegate.swift */,
+				E616997B1DAD01710083186B /* Main.storyboard */,
+				E616997E1DAD01710083186B /* Assets.xcassets */,
+				E61699801DAD01710083186B /* LaunchScreen.storyboard */,
+			);
+			path = DriverLicenseTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61699731DAD01710083186B /* DriverLicenseTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61699861DAD01710083186B /* Build configuration list for PBXNativeTarget "DriverLicenseTest" */;
+			buildPhases = (
+				E61699701DAD01710083186B /* Sources */,
+				E61699711DAD01710083186B /* Frameworks */,
+				E61699721DAD01710083186B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriverLicenseTest;
+			productName = DriverLicenseTest;
+			productReference = E61699741DAD01710083186B /* DriverLicenseTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E616996C1DAD01710083186B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Olcay Taner Yıldız";
+				TargetAttributes = {
+					E61699731DAD01710083186B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E616996F1DAD01710083186B /* Build configuration list for PBXProject "DriverLicenseTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E616996B1DAD01710083186B;
+			productRefGroup = E61699751DAD01710083186B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61699731DAD01710083186B /* DriverLicenseTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61699721DAD01710083186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61699941DAD066D0083186B /* BasicPreferences.plist in Resources */,
+				E61699821DAD01710083186B /* LaunchScreen.storyboard in Resources */,
+				E64DA3851DAE9FF400EFBE9E /* driverlicense.txt in Resources */,
+				E616997F1DAD01710083186B /* Assets.xcassets in Resources */,
+				E65F2FD71DAD64BF007A439A /* Info.plist in Resources */,
+				E616997D1DAD01710083186B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61699701DAD01710083186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61699781DAD01710083186B /* AppDelegate.swift in Sources */,
+				E61699911DAD054C0083186B /* Question.swift in Sources */,
+				E616998F1DAD054C0083186B /* DriverLicenseTest.swift in Sources */,
+				E61699901DAD054C0083186B /* Preferences.swift in Sources */,
+				E61699921DAD054C0083186B /* Subjects.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E616997B1DAD01710083186B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E616997C1DAD01710083186B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E61699801DAD01710083186B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61699811DAD01710083186B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61699841DAD01710083186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E61699851DAD01710083186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61699871DAD01710083186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DriverLicenseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DriverLicenseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E61699881DAD01710083186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DriverLicenseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DriverLicenseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E616996F1DAD01710083186B /* Build configuration list for PBXProject "DriverLicenseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61699841DAD01710083186B /* Debug */,
+				E61699851DAD01710083186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61699861DAD01710083186B /* Build configuration list for PBXNativeTarget "DriverLicenseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61699871DAD01710083186B /* Debug */,
+				E61699881DAD01710083186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E616996C1DAD01710083186B /* Project object */;
+}

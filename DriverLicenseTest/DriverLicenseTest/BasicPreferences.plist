@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>traffic</key>
+	<true/>
+	<key>engine</key>
+	<true/>
+	<key>firstAid</key>
+	<true/>
+	<key>trafficNumberOfQuestions</key>
+	<integer>10</integer>
+	<key>engineNumberOfQuestions</key>
+	<integer>10</integer>
+	<key>firstAidNumberOfQuestions</key>
+	<integer>10</integer>
+</dict>
+</plist>
